@@ -23,6 +23,7 @@ return (
       <Route
       exact path='/'
       element={<Home />}></Route>
+      <Route exact path='/search-results'></Route>
     </Routes>
     <Footer />
   </Router>
